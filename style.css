@@ -318,3 +318,14 @@ body {
     width: 340px;
   }
 }
+@media (max-width: 500px) {
+  .header__body,
+  .easybank,
+  .latestArticles-container {
+    padding-inline: 18px;
+  }
+  .header__title,
+  .text-lg {
+    font-size: 42px !important;
+  }
+}
